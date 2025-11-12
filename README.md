@@ -80,10 +80,10 @@ numpy
 
 4. Ejecutar el script principal:
 
-python src/main.py
+    python src/main.py
 
 
-Abrir y ejecutar los notebooks de hipótesis en src/Notebooks/ para análisis específicos.
+5. Abrir y ejecutar los notebooks de hipótesis en src/Notebooks/ para análisis específicos.
 
 # Resultados esperados / Hallazgos
 (Se completan después de ejecutar main.py y los notebooks)
