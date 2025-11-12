@@ -57,28 +57,6 @@ El dataset contiene información de **38 ligas de fútbol del mundo**, desde 200
 
 ---
 
-## Estructura del repositorio
-Proyecto-EDA/
-├─ src/
-│ ├─ data/
-│ │ └─ Matches.csv
-│ ├─ img/
-│ │ ├─ grafico_amarillas_comparativa.png
-│ │ ├─ grafico_amarillas.png
-│ │ ├─ grafico_had.png
-│ │ ├─ grafico_rojas_comparativa.png
-│ │ └─ grafico_rojas.png
-│ ├─ Notebooks/
-│ │ ├─ Hipotesis1.ipynb
-│ │ ├─ Hipotesis2.ipynb
-│ │ ├─ Hipotesis3.ipynb
-│ │ └─ Hipotesis4.ipynb
-│ ├─ main.py
-│ └─ Memoria.ipynb
-└─ README.md
-
-
----
 
 ## Requisitos
 - Python 3.x  
@@ -89,18 +67,25 @@ Proyecto-EDA/
 
 ## Cómo ejecutar
 1. Clonar el repositorio:  
-   ```bash
-   git clone <URL_DEL_REPOSITORIO>
-Asegurarse de que el dataset Matches.csv esté en src/data/.
+git clone https://github.com/davidlajas/Proyecto-EDA.git
+cd Proyecto-EDA
 
-Ejecutar el script principal:
+2. Asegúrate de que tienes instalado Python 3.x y las librerías necesarias:
+pandas
+matplotlib
+seaborn
+numpy 
 
-bash
-Copiar código
+3. Verifica que el dataset Matches.csv esté en la carpeta src/data/.
+
+4. Ejecutar el script principal:
+
 python src/main.py
+
+
 Abrir y ejecutar los notebooks de hipótesis en src/Notebooks/ para análisis específicos.
 
-Resultados esperados / Hallazgos
+# Resultados esperados / Hallazgos
 (Se completan después de ejecutar main.py y los notebooks)
 
 Distribución de goles locales vs visitantes (grafico_had.png).
@@ -115,13 +100,6 @@ Impacto de tarjetas y expulsiones en los resultados.
 
 Posible sesgo arbitral hacia FC Barcelona vs Real Madrid.
 
-Conclusiones
-Este análisis permite identificar patrones en partidos de clubes de todo el mundo y proporciona insights útiles para predicciones, estrategias de juego y estudios de rendimiento.
 
-Futuros pasos:
-
-Analizar rendimiento de jugadores individuales si se añaden datos.
-
-Construir modelos predictivos basados en patrones detectados.
 
 
